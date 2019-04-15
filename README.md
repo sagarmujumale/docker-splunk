@@ -8,6 +8,10 @@ The provisioning of these disjoint containers is handled by the [splunk-ansible]
 
 ----
 
+## Documentation
+
+[docker-splunk documentation](https://splunk.github.io/docker-splunk/)
+
 ## Table of Contents
 
 1. [Purpose](#purpose)

@@ -173,6 +173,7 @@ Search Head Clustering can be configured using the "shc" sub-object. Example:
     replication_factor: 3
     replication_port: 9887
 ```
+
 | Variable Name | Description | Parent Object | Default Value | Required for Standalone | Required for Search Head Clustering | Required for Index Clustering |
 | --- | --- | --- | --- | --- | --- | --- |
 | enable | Instructs the container to create a search head cluster | splunk.shc | false | no | yes | no |
@@ -188,6 +189,7 @@ Lastly, Index Clustering is configured with the `idxc` sub-object. Example:
     replication_factor: 3
     replication_port: 9887
 ```
+
 | Variable Name | Description | Parent Object | Default Value | Required for Standalone| Required for Search Head Clustering | Required for Index Clustering |
 | --- | --- | --- | --- | --- | --- | --- |
 | secret | Secret used for transmission between the cluster master and indexers | splunk.idxc | **none** | no | no | yes |
